@@ -18,7 +18,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     
-    NSlog(@"HERE");
+    NSlog(@"HERE2");
     
     // Insert code here to initialize your application
 }
