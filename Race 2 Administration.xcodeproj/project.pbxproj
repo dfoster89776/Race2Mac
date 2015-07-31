@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670D4B041B6BC48F009CA609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D4B031B6BC48F009CA609 /* AppDelegate.m */; };
+		670D4B071B6BC48F009CA609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D4B061B6BC48F009CA609 /* main.m */; };
+		670D4B0A1B6BC48F009CA609 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D4B091B6BC48F009CA609 /* ViewController.m */; };
+		670D4B0D1B6BC48F009CA609 /* Race_2_Administration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 670D4B0B1B6BC48F009CA609 /* Race_2_Administration.xcdatamodeld */; };
+		670D4B0F1B6BC48F009CA609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670D4B0E1B6BC48F009CA609 /* Assets.xcassets */; };
+		670D4B121B6BC48F009CA609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670D4B101B6BC48F009CA609 /* Main.storyboard */; };
+		670D4B1D1B6BC48F009CA609 /* Race_2_AdministrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D4B1C1B6BC48F009CA609 /* Race_2_AdministrationTests.m */; };
+		670D4B281B6BC48F009CA609 /* Race_2_AdministrationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670D4B271B6BC48F009CA609 /* Race_2_AdministrationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670D4B191B6BC48F009CA609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670D4AF71B6BC48F009CA609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670D4AFE1B6BC48F009CA609;
+			remoteInfo = "Race 2 Administration";
+		};
+		670D4B241B6BC48F009CA609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670D4AF71B6BC48F009CA609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670D4AFE1B6BC48F009CA609;
+			remoteInfo = "Race 2 Administration";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		670D4AFF1B6BC48F009CA609 /* Race 2 Administration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Race 2 Administration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670D4B021B6BC48F009CA609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		670D4B031B6BC48F009CA609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		670D4B061B6BC48F009CA609 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		670D4B081B6BC48F009CA609 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		670D4B091B6BC48F009CA609 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		670D4B0C1B6BC48F009CA609 /* Race_2_Administration.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Race_2_Administration.xcdatamodel; sourceTree = "<group>"; };
+		670D4B0E1B6BC48F009CA609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		670D4B111B6BC48F009CA609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		670D4B131B6BC48F009CA609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670D4B181B6BC48F009CA609 /* Race 2 AdministrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Race 2 AdministrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670D4B1C1B6BC48F009CA609 /* Race_2_AdministrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_2_AdministrationTests.m; sourceTree = "<group>"; };
+		670D4B1E1B6BC48F009CA609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670D4B231B6BC48F009CA609 /* Race 2 AdministrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Race 2 AdministrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670D4B271B6BC48F009CA609 /* Race_2_AdministrationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_2_AdministrationUITests.m; sourceTree = "<group>"; };
+		670D4B291B6BC48F009CA609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670D4AFC1B6BC48F009CA609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670D4B151B6BC48F009CA609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670D4B201B6BC48F009CA609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670D4AF61B6BC48F009CA609 = {
+			isa = PBXGroup;
+			children = (
+				670D4B011B6BC48F009CA609 /* Race 2 Administration */,
+				670D4B1B1B6BC48F009CA609 /* Race 2 AdministrationTests */,
+				670D4B261B6BC48F009CA609 /* Race 2 AdministrationUITests */,
+				670D4B001B6BC48F009CA609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		670D4B001B6BC48F009CA609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670D4AFF1B6BC48F009CA609 /* Race 2 Administration.app */,
+				670D4B181B6BC48F009CA609 /* Race 2 AdministrationTests.xctest */,
+				670D4B231B6BC48F009CA609 /* Race 2 AdministrationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670D4B011B6BC48F009CA609 /* Race 2 Administration */ = {
+			isa = PBXGroup;
+			children = (
+				670D4B021B6BC48F009CA609 /* AppDelegate.h */,
+				670D4B031B6BC48F009CA609 /* AppDelegate.m */,
+				670D4B081B6BC48F009CA609 /* ViewController.h */,
+				670D4B091B6BC48F009CA609 /* ViewController.m */,
+				670D4B0E1B6BC48F009CA609 /* Assets.xcassets */,
+				670D4B101B6BC48F009CA609 /* Main.storyboard */,
+				670D4B131B6BC48F009CA609 /* Info.plist */,
+				670D4B0B1B6BC48F009CA609 /* Race_2_Administration.xcdatamodeld */,
+				670D4B051B6BC48F009CA609 /* Supporting Files */,
+			);
+			path = "Race 2 Administration";
+			sourceTree = "<group>";
+		};
+		670D4B051B6BC48F009CA609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				670D4B061B6BC48F009CA609 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		670D4B1B1B6BC48F009CA609 /* Race 2 AdministrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				670D4B1C1B6BC48F009CA609 /* Race_2_AdministrationTests.m */,
+				670D4B1E1B6BC48F009CA609 /* Info.plist */,
+			);
+			path = "Race 2 AdministrationTests";
+			sourceTree = "<group>";
+		};
+		670D4B261B6BC48F009CA609 /* Race 2 AdministrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				670D4B271B6BC48F009CA609 /* Race_2_AdministrationUITests.m */,
+				670D4B291B6BC48F009CA609 /* Info.plist */,
+			);
+			path = "Race 2 AdministrationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670D4AFE1B6BC48F009CA609 /* Race 2 Administration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670D4B2C1B6BC48F009CA609 /* Build configuration list for PBXNativeTarget "Race 2 Administration" */;
+			buildPhases = (
+				670D4AFB1B6BC48F009CA609 /* Sources */,
+				670D4AFC1B6BC48F009CA609 /* Frameworks */,
+				670D4AFD1B6BC48F009CA609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Race 2 Administration";
+			productName = "Race 2 Administration";
+			productReference = 670D4AFF1B6BC48F009CA609 /* Race 2 Administration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670D4B171B6BC48F009CA609 /* Race 2 AdministrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670D4B2F1B6BC48F009CA609 /* Build configuration list for PBXNativeTarget "Race 2 AdministrationTests" */;
+			buildPhases = (
+				670D4B141B6BC48F009CA609 /* Sources */,
+				670D4B151B6BC48F009CA609 /* Frameworks */,
+				670D4B161B6BC48F009CA609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670D4B1A1B6BC48F009CA609 /* PBXTargetDependency */,
+			);
+			name = "Race 2 AdministrationTests";
+			productName = "Race 2 AdministrationTests";
+			productReference = 670D4B181B6BC48F009CA609 /* Race 2 AdministrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		670D4B221B6BC48F009CA609 /* Race 2 AdministrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670D4B321B6BC48F009CA609 /* Build configuration list for PBXNativeTarget "Race 2 AdministrationUITests" */;
+			buildPhases = (
+				670D4B1F1B6BC48F009CA609 /* Sources */,
+				670D4B201B6BC48F009CA609 /* Frameworks */,
+				670D4B211B6BC48F009CA609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670D4B251B6BC48F009CA609 /* PBXTargetDependency */,
+			);
+			name = "Race 2 AdministrationUITests";
+			productName = "Race 2 AdministrationUITests";
+			productReference = 670D4B231B6BC48F009CA609 /* Race 2 AdministrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670D4AF71B6BC48F009CA609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "David Foster";
+				TargetAttributes = {
+					670D4AFE1B6BC48F009CA609 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					670D4B171B6BC48F009CA609 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 670D4AFE1B6BC48F009CA609;
+					};
+					670D4B221B6BC48F009CA609 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 670D4AFE1B6BC48F009CA609;
+					};
+				};
+			};
+			buildConfigurationList = 670D4AFA1B6BC48F009CA609 /* Build configuration list for PBXProject "Race 2 Administration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670D4AF61B6BC48F009CA609;
+			productRefGroup = 670D4B001B6BC48F009CA609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670D4AFE1B6BC48F009CA609 /* Race 2 Administration */,
+				670D4B171B6BC48F009CA609 /* Race 2 AdministrationTests */,
+				670D4B221B6BC48F009CA609 /* Race 2 AdministrationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670D4AFD1B6BC48F009CA609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670D4B0F1B6BC48F009CA609 /* Assets.xcassets in Resources */,
+				670D4B121B6BC48F009CA609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670D4B161B6BC48F009CA609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670D4B211B6BC48F009CA609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670D4AFB1B6BC48F009CA609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670D4B0A1B6BC48F009CA609 /* ViewController.m in Sources */,
+				670D4B071B6BC48F009CA609 /* main.m in Sources */,
+				670D4B041B6BC48F009CA609 /* AppDelegate.m in Sources */,
+				670D4B0D1B6BC48F009CA609 /* Race_2_Administration.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670D4B141B6BC48F009CA609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670D4B1D1B6BC48F009CA609 /* Race_2_AdministrationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670D4B1F1B6BC48F009CA609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670D4B281B6BC48F009CA609 /* Race_2_AdministrationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		670D4B1A1B6BC48F009CA609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670D4AFE1B6BC48F009CA609 /* Race 2 Administration */;
+			targetProxy = 670D4B191B6BC48F009CA609 /* PBXContainerItemProxy */;
+		};
+		670D4B251B6BC48F009CA609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670D4AFE1B6BC48F009CA609 /* Race 2 Administration */;
+			targetProxy = 670D4B241B6BC48F009CA609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		670D4B101B6BC48F009CA609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670D4B111B6BC48F009CA609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		670D4B2A1B6BC48F009CA609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		670D4B2B1B6BC48F009CA609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		670D4B2D1B6BC48F009CA609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Race 2 Administration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david.foster.Race-2-Administration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		670D4B2E1B6BC48F009CA609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Race 2 Administration/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david.foster.Race-2-Administration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		670D4B301B6BC48F009CA609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Race 2 AdministrationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david.foster.Race-2-AdministrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Race 2 Administration.app/Contents/MacOS/Race 2 Administration";
+			};
+			name = Debug;
+		};
+		670D4B311B6BC48F009CA609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Race 2 AdministrationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david.foster.Race-2-AdministrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Race 2 Administration.app/Contents/MacOS/Race 2 Administration";
+			};
+			name = Release;
+		};
+		670D4B331B6BC48F009CA609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Race 2 AdministrationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david.foster.Race-2-AdministrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Race 2 Administration";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		670D4B341B6BC48F009CA609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Race 2 AdministrationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "david.foster.Race-2-AdministrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Race 2 Administration";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670D4AFA1B6BC48F009CA609 /* Build configuration list for PBXProject "Race 2 Administration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670D4B2A1B6BC48F009CA609 /* Debug */,
+				670D4B2B1B6BC48F009CA609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670D4B2C1B6BC48F009CA609 /* Build configuration list for PBXNativeTarget "Race 2 Administration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670D4B2D1B6BC48F009CA609 /* Debug */,
+				670D4B2E1B6BC48F009CA609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		670D4B2F1B6BC48F009CA609 /* Build configuration list for PBXNativeTarget "Race 2 AdministrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670D4B301B6BC48F009CA609 /* Debug */,
+				670D4B311B6BC48F009CA609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		670D4B321B6BC48F009CA609 /* Build configuration list for PBXNativeTarget "Race 2 AdministrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670D4B331B6BC48F009CA609 /* Debug */,
+				670D4B341B6BC48F009CA609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		670D4B0B1B6BC48F009CA609 /* Race_2_Administration.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				670D4B0C1B6BC48F009CA609 /* Race_2_Administration.xcdatamodel */,
+			);
+			currentVersion = 670D4B0C1B6BC48F009CA609 /* Race_2_Administration.xcdatamodel */;
+			path = Race_2_Administration.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 670D4AF71B6BC48F009CA609 /* Project object */;
+}
